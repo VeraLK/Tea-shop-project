@@ -1,7 +1,172 @@
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+* {
 	margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+a {
+    text-decoration: underline;
+    color: seashell;
+}
+
+img ,header {
+    height: 50px;
+    width: 120px;
+    margin: auto 10px;
+    float: left;
+}
+
+header {
+    display:flex;
+    position: fixed;
+    padding-top: 9;
+    padding-bottom: 9;
+    width: 100%;
+    height: 69px;
+    background-color: black;    
+    z-index: 2;
+    border-bottom: 1px solid seashell;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    width: 450px;
+    height: 69px;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-right: 20px;
+    font-weight: 300;
+    list-style-type: none;
+}
+
+.mission-container {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/Pics/img-mission-background.jpg");
+    background-size: 1200px 700px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+}
+
+.mission-text {
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 1200px;
+    flex-flow: column;
+    padding: 5px 5px;
+    margin: auto 0;
+    opacity: 0.9;
+    line-height: 1.4;
+}
+
+.tea {
+    padding: 50px;
+    line-height: 1.7;
+    display: flex;
+    flex-flow: column;
+    justify-content: center; 
+    align-items: center;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.featured-tea {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+    height: 600;
+    position: relative;
+    max-width: 1000px;
+    margin: auto;
+
+
+}
+.berrytea, .spicedrum, .seasonal, .myrtle, .bedford {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.berrytea img, .spicedrum img, .seasonal img, .myrtle img, .bedford img { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    width: 300px;
+    height: 200px;
+} 
+
+.berrytea h4, .spicedrum h4, .seasonal h4, .myrtle h4, .bedford h4 {
+    position: relative;
+    margin: 10px;
+
+}
+
+.locations {
+
+    background-image: url("/Pics/img-locations-background.jpg");
+    background-size: 1200px 1200px;
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    margin: 60px auto; 
+
+}
+
+.location-text {
+    padding: 40px;
+    line-height: 1.7;
+}
+
+.location-box {
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+    width: 1200px;
+}
+.downtown, .east, .oakdale {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    background-color: black;
+    opacity: 0.8;
+    margin: 10px;
+}
+
+.contact h5 {
+    padding: 5px;
+    color:rgb(80, 61, 250);
+}
+
+.contact {
+    padding-bottom: 150px;
+}
+
+footer {
+    position: fixed;
+    bottom: 2px;  
+    left: 20px;
 }
