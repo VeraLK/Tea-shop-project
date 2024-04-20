@@ -19,4 +19,4 @@ The images and design spec needed to complete the project are listed as follow a
 
 ---
 
-9. ![alt Design pic] (web design.jpg)- how the website actually needs to look like (guidlines provided by designers).
+9. ![alt Design pic] (web design.jpg)- how the website actually needs to look like (guidelines provided by designers).
